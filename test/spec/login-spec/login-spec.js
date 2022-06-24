@@ -58,7 +58,7 @@ When('user enter unregistered email', async () => {
 });
 
 When('user click {string} button', async (btnLogin) => {
-  await $('~'+btnLogin+'').click();
+  await $('//*[@content-desc="'+btnLogin+'"]').click();
 });
 
 Then('user should see {string} message', async (err) => {

@@ -29,6 +29,8 @@
     "appium-uiautomator2-driver": "^2.2.0",
     "appium-xcuitest-driver": "^4.4.6",
     "eslint": "^8.18.0",
-    "eslint-plugin-wdio": "^7.19.4"
+    "eslint-plugin-wdio": "^7.19.4",
+    "multiple-cucumber-html-reporter": "^1.21.4",
+    "wdio-cucumberjs-json-reporter": "^4.4.1"
   }
 }

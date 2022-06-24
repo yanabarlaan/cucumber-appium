@@ -12,7 +12,7 @@ config.key = process.env.BROWSERSTACK_KEY;
 // Specs
 // ============
 config.specs = [
-  './test/spec/*.feature'
+  './test/spec/login*.feature'
 ];
 
 //
